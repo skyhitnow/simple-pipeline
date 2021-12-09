@@ -1,5 +1,5 @@
 pipeline { 
-    agent {label 'aliyun_agent'}
+    agent {node label {'aliyun_agent'}}
     tools {
         maven 'M3' 
         jdk 'jdk8' 
