@@ -1,5 +1,5 @@
 pipeline { 
-    agent 'agent-aliyun-docker'
+    agent {'aliyun_agent'}
     tools {
         maven 'M3' 
         jdk 'jdk8' 
